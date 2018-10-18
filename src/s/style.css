@@ -1,0 +1,12 @@
+Pane{
+    -fx-background-color:black;
+}
+JFXButton{
+    -fx-border-color:white;
+    -fx-border-radius:5;
+    -fx-text-fill: white;
+    
+}
+JFXTextArea{
+    -fx-background-color:gray;
+}

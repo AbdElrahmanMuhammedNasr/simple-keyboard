@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="391.0" prefWidth="1230.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="s.FXMLDocumentController">
+   <children>
+      <HBox fx:id="v1" layoutY="332.0" prefHeight="52.0" prefWidth="1221.0" stylesheets="@style.css">
+         <children>
+            <JFXButton prefHeight="52.0" prefWidth="140.0" text="Ctrl">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton prefHeight="53.0" prefWidth="89.0" text="Fn">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton prefHeight="52.0" prefWidth="92.0" text=" ">
+               <font>
+                  <Font size="23.0" />
+               </font>
+               <graphic>
+                  <FontAwesomeIconView fill="WHITE" glyphName="WINDOWS" size="35" textAlignment="CENTER" wrappingWidth="60.0" />
+               </graphic>
+            </JFXButton>
+            <JFXButton prefHeight="53.0" prefWidth="89.0" text="Alt">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="space" onMouseClicked="#cont" prefHeight="52.0" prefWidth="402.0" text="Space">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton prefHeight="53.0" prefWidth="89.0" text="Alt">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton prefHeight="65.0" prefWidth="89.0" text="Ctrl">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton prefHeight="52.0" prefWidth="92.0" text=" " textAlignment="CENTER">
+               <font>
+                  <Font size="23.0" />
+               </font>
+               <graphic>
+                  <FontAwesomeIconView fill="#dddddd" text="" />
+               </graphic>
+            </JFXButton>
+            <JFXButton prefHeight="65.0" prefWidth="89.0" text=" ">
+               <font>
+                  <Font size="23.0" />
+               </font>
+               <graphic>
+                  <FontAwesomeIconView fill="#dddddd" textAlignment="CENTER" />
+               </graphic>
+            </JFXButton>
+            <JFXButton prefHeight="52.0" prefWidth="93.0" text=" ">
+               <font>
+                  <Font size="23.0" />
+               </font>
+               <graphic>
+                  <FontAwesomeIconView fill="#dddddd" textAlignment="CENTER" />
+               </graphic>
+            </JFXButton>
+         </children>
+      </HBox>
+      <HBox fx:id="v2" layoutY="272.0" prefHeight="52.0" prefWidth="1221.0" stylesheets="@style.css">
+         <children>
+            <JFXButton fx:id="shift2" onMouseClicked="#cont" prefHeight="52.0" prefWidth="100.0" text=" Shift">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton onMouseClicked="#cont" prefHeight="52.0" prefWidth="73.0" text="\\">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="bz" onMouseClicked="#cont" prefHeight="52.0" prefWidth="73.0" text="z">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="bx" onMouseClicked="#cont" prefHeight="52.0" prefWidth="73.0" text="x">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="bc" onMouseClicked="#cont" prefHeight="52.0" prefWidth="73.0" text="c">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="bv" onMouseClicked="#cont" prefHeight="52.0" prefWidth="73.0" text="v">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="bb" onMouseClicked="#cont" prefHeight="52.0" prefWidth="73.0" text="b">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="bn" onMouseClicked="#cont" prefHeight="52.0" prefWidth="73.0" text="n">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="bm" onMouseClicked="#cont" prefHeight="52.0" prefWidth="73.0" text="m">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton onMouseClicked="#cont" prefHeight="52.0" prefWidth="73.0" text=",">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton onMouseClicked="#cont" prefHeight="52.0" prefWidth="73.0" text=".">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton onMouseClicked="#cont" prefHeight="52.0" prefWidth="73.0" text="/">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="shift" onMouseClicked="#cont" prefHeight="52.0" prefWidth="213.0" text="Shift">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton onMouseClicked="#cont" prefHeight="52.0" prefWidth="111.0" text=" ">
+               <font>
+                  <Font size="23.0" />
+               </font>
+               <graphic>
+                  <FontAwesomeIconView fill="#dddddd" />
+               </graphic>
+            </JFXButton>
+         </children>
+      </HBox>
+      <HBox fx:id="v3" layoutX="1.0" layoutY="206.0" prefHeight="52.0" prefWidth="1221.0" stylesheets="@style.css">
+         <children>
+            <JFXButton fx:id="capsLock" onMouseClicked="#cont" prefHeight="52.0" prefWidth="132.0" text="CapsLock">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="ba" onMouseClicked="#cont" prefHeight="52.0" prefWidth="82.0" text="a">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="bs" onMouseClicked="#cont" prefHeight="52.0" prefWidth="73.0" text="s">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="bd" onMouseClicked="#cont" prefHeight="52.0" prefWidth="73.0" text="d">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="bf" onMouseClicked="#cont" prefHeight="52.0" prefWidth="73.0" text="f">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="bg" onMouseClicked="#cont" prefHeight="52.0" prefWidth="73.0" text="g">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="bh" onMouseClicked="#cont" prefHeight="52.0" prefWidth="73.0" text="h">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="bj" onMouseClicked="#cont" prefHeight="52.0" prefWidth="73.0" text="j">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="bk" onMouseClicked="#cont" prefHeight="52.0" prefWidth="73.0" text="k">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="bl" onMouseClicked="#cont" prefHeight="52.0" prefWidth="73.0" text="l">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton onMouseClicked="#cont" prefHeight="52.0" prefWidth="79.0" text=";">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton onMouseClicked="#cont" prefHeight="52.0" prefWidth="79.0" text="'">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton onMouseClicked="#cont" prefHeight="52.0" prefWidth="79.0" text="|">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </HBox>
+      <HBox fx:id="v4" layoutY="141.0" prefHeight="52.0" prefWidth="1221.0" stylesheets="@style.css">
+         <children>
+            <JFXButton fx:id="tab" onMouseClicked="#cont" prefHeight="52.0" prefWidth="96.0" style="-fx-border-radius: 5;" text="Tab">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="bq" onMouseClicked="#cont" prefHeight="52.0" prefWidth="73.0" text="q">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="bw" onMouseClicked="#cont" prefHeight="52.0" prefWidth="73.0" text="w">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="be" onMouseClicked="#cont" prefHeight="52.0" prefWidth="73.0" text="e">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="br" onMouseClicked="#cont" prefHeight="52.0" prefWidth="73.0" text="r">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="bt" onMouseClicked="#cont" prefHeight="52.0" prefWidth="73.0" text="t">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="by" onMouseClicked="#cont" prefHeight="52.0" prefWidth="73.0" text="y">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="bu" onMouseClicked="#cont" prefHeight="52.0" prefWidth="73.0" text="u">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="bi" onMouseClicked="#cont" prefHeight="52.0" prefWidth="73.0" text="i">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="bo" onMouseClicked="#cont" prefHeight="52.0" prefWidth="73.0" text="o">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="bp" onMouseClicked="#cont" prefHeight="52.0" prefWidth="79.0" text="p">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton prefHeight="52.0" prefWidth="79.0" text="[">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton prefHeight="52.0" prefWidth="79.0" text="]">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </HBox>
+      <JFXTextArea fx:id="text" prefHeight="60.0" prefWidth="1230.0">
+         <font>
+            <Font size="20.0" />
+         </font></JFXTextArea>
+      <HBox fx:id="v31" layoutY="74.0" prefHeight="52.0" prefWidth="1221.0" stylesheets="@style.css">
+         <children>
+            <JFXButton prefHeight="52.0" prefWidth="99.0" text="~">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="b1" onMouseClicked="#cont" prefHeight="52.0" prefWidth="82.0" text="1">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="b2" onMouseClicked="#cont" prefHeight="52.0" prefWidth="73.0" text="2">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="b3" onMouseClicked="#cont" prefHeight="52.0" prefWidth="73.0" text="3">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="b4" onMouseClicked="#cont" prefHeight="52.0" prefWidth="73.0" text="4">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="b5" onMouseClicked="#cont" prefHeight="52.0" prefWidth="73.0" text="5">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="b6" onMouseClicked="#cont" prefHeight="52.0" prefWidth="73.0" text="6">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="b7" onMouseClicked="#cont" prefHeight="52.0" prefWidth="73.0" text="7">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="b8" onMouseClicked="#cont" prefHeight="52.0" prefWidth="73.0" text="8">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="b9" onMouseClicked="#cont" prefHeight="52.0" prefWidth="73.0" text="9">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="b0" onMouseClicked="#cont" prefHeight="52.0" prefWidth="79.0" text="0">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton prefHeight="52.0" prefWidth="79.0" text="'">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton prefHeight="52.0" prefWidth="79.0" text="-">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton prefHeight="52.0" prefWidth="79.0" text="=">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton prefHeight="52.0" prefWidth="136.0" text="&lt;-">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </HBox>
+   </children>
+</Pane>
